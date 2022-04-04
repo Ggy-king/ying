@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+em,
+i {
+    font-family: normal;
+}
+
+li {
+    list-style: none;
+
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+button {
+    cursor: pointer;
+}
+input {
+    outline: none;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #c81623 !important;
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    /* height: 4000px; */
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix:after {
+    *zoom: 1;
+}
+/* 头部制作 */
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #07cbc9;
+    line-height: 70px;
+}
+header img {
+    float: left;
+    margin-left: 7.2%;
+    margin-top: 10px;
+    
+}
+nav ul li{
+    float: right;
+    line-height: 80px;
+    margin-right: 1.2%;
+
+}
+nav ul li a {
+    font-size: 14px;
+    color: #ffffff;
+}
+.lite {
+    margin-right: 5.2%;
+}
+/* banner部分 */
+.banner {
+    position: relative;
+}
+.banner img {
+    margin-top: -1px;
+    width: 100%;
+    height: 570px;
+    /* opacity: 0.9; */
+}
+.biaodan {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.biaodan li {
+    margin-bottom: 10px;
+}
+.biaodan li input {
+    background: transparent;
+    border: 2px solid #666;
+}
+.bioodan input:focus {
+     color:block;
+}
+.biaodan .l1 {
+    display: inline-block;
+    width: 505px;
+    height: 39px;
+    color: rgb(90, 91, 92);
+    text-indent: 1em;
+   
+}
+
+.biaodan .l2 {
+    display: inline-block;
+    width: 505px;
+    height: 115px;
+    color: rgb(90, 91, 92);
+    text-indent: 1em;
+}
+/* 内容部分 */
+section {
+    position: relative;
+}
+.about h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 42px;
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: rgb(0, 0, 0);
+    border-bottom: #07cbc9;
+}
+.about span {
+    display: block;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    color: #07cbc9;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.about p {
+    text-align: center;
+}
+/* 图片内容 */
+.picture {
+    margin-top: 10px;
+    text-align: center;
+}
+.picture img {
+    width: 500px;
+}
+/* 图片左 */
+.ture1 i{
+    position: absolute;
+    left: 50%;
+    margin-left: -380px;
+    top: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+}
+.ture1 em{
+    position: absolute;
+    left: 50%;
+    margin-left: -390px;
+    top: 175px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+}
+.ture2 {
+    width: 280px;
+    height: 180px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 50%;
+    margin-left: -408px;
+    top: 220px;
+    text-indent: 2em;
+    /* font-size: 13px; */
+    font-weight: 550;
+    font-style: normal;
+    color: black;
+}
+.ture2 .one {
+    margin-top: 15px;
+}
+.ture2 p {
+    text-align: left;
+}
+.ture2 .a {
+    margin-left: 20px;
+    margin-top: 13px;
+    width: 90px;
+    height: 38px;
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+    text-indent: 0;
+    line-height: 38px;
+}
+.ture2 .a a{
+    color: #fff;
+}
+/* 图片右 */
+.bian1 {
+    position: absolute;
+    top: 150px;
+    right: 50%;
+    margin-right: -490px;
+    width: 200px;
+    height: 120px;
+    border: #07cbc9 1px solid;
+}
+.bian2 {
+    position: absolute;
+    top: 280px;
+    right: 50%;
+    margin-right: -490px;
+    width: 200px;
+    height: 120px;
+    border: #07cbc9 1px solid;
+
+}
+.bian1 .one {
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.bian1 .two {
+    color: #07cbc9;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -15px;
+
+}
+.bian1 .three {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.bian2 .one {
+    color: black;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 20px;
+}
+.bian2 .two {
+    color: #07cbc9;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -15px;
+
+}
+.bian2 .three {
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+}
+/* 这上面代码有点繁琐 先不改了 */
+/* main-content部分 */
+.main-content {
+    margin-top: 50px;
+}
+.main-content li{
+    position: relative;
+    float: left;
+    width:25%;
+    height: 300px;
+    background-color: #07cbc9;
+}
+.main-content li img{
+    float: left;
+    width: 100%;
+    height: 300px;
+}
+/* 四个文字部分 */
+.main-content .one {
+    margin-left: 40px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.main-content .two {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 12px;
+    font-weight: 400;
+    color: rgb(231, 244, 244);
+    
+}
+.main-content .three {
+    font-size: 13px;
+    margin-left: 40px;
+    margin-top: 12px;
+    font-weight: 400;
+    color: rgb(197, 216, 211);
+    
+}
+.main-content .four {
+    position: absolute;
+    bottom: 40px;
+    right: 38%;
+    width: 90px;
+    height: 38px;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    text-indent: 0;
+    line-height: 38px;
+}
+.main-content .four a{
+    color: #fff;
+}
+
+/* GAllERY部分 */
+.gallery h2 {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 42px;
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: rgb(0, 0, 0);
+    border-bottom: #07cbc9;
+}
+.gallery span {
+    display: block;
+    margin-top: -25px;
+    margin-bottom: 15px;
+    color: #07cbc9;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.gallery p {
+    text-align: center;
+}
+.gallery .one{
+    margin-bottom: 15px;
+}
+/* 六张图制作 */
+.li { 
+    margin: auto;
+    width: 940px;
+}
+.li li:nth-of-type(3n){
+    margin-right: 0;
+}
+.li li:nth-of-type(n+3){
+    margin-bottom: 0;
+}
+.li li {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    width: 300px;
+    height: 200px;
+}
+.li li img {
+    width: 100%;
+    height: 100%;
+}
+.li li div {
+    line-height: 30px;
+    text-indent: 2em;
+    width: 300px;
+    height: 30px;
+    background-color: black;
+}
+.li li a{
+    color: #ffffff;
+}
+/* 底部部分*/
+footer {
+    position: relative;
+    bottom: -80px;
+    width: 100%;
+    height: 80px;
+    background-color: #07cbc9;
+    line-height: 70px;
+}
+footer span {
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    color: #ffffff;
+    
+}
